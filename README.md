@@ -1,23 +1,20 @@
-# Next.js + Supabase Starter
+# 🚀 Next.js + Supabase Starter
 
-A modern full-stack starter template with:
+Just a personal starter template for my projects. Nothing fancy.
 
-- ⚡ **Next.js 15** - React framework with App Router
-- 🗄️ **Supabase** - Backend as a Service (Auth, Database, Storage)
-- 🎨 **Tailwind CSS v4** - Utility-first CSS
-- 🧩 **Shadcn/UI** - Re-usable components
-- 📝 **TypeScript** - Type safety
+## Stack
+- Next.js 15 (App Router)
+- Supabase (Auth, DB, Storage)
+- Tailwind CSS v4
+- TypeScript
+- Lucide Icons
 
-## Getting Started
-
-1. Clone this repo
-2. Install dependencies: `pnpm install`
-3. Copy `.env.example` to `.env.local` and fill in your Supabase credentials
-4. Run: `pnpm dev`
-
-## Environment Variables
-
+## Quick Start
+```bash
+pnpm install
+cp .env.example .env.local
+# Add your Supabase keys
+pnpm dev
 ```
-NEXT_PUBLIC_SUPABASE_URL=your-supabase-url
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-key
-```
+
+That's it. Happy coding! 🎉
